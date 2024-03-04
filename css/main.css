@@ -1,0 +1,105 @@
+    body {
+        background-color: #293241;
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FBFBFF;
+        text-align: justify;
+        font-size: 36px;
+    }
+    
+    .logo {
+        height: 75px;
+        position: absolute;
+        top: 32.5px;
+        left: 15px;
+    }
+    
+    nav {
+        background-color: black;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .button {
+        background-size: contain;
+        background-image: url(../images/menu.png);
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 40px;
+        top: 55px;
+        background-repeat: no-repeat;
+    }
+    
+    input[type="checkbox"] {
+        display: none;
+    }
+    
+    .poster {
+        width: 30vw;
+        height: auto;
+        background-size: cover;
+    }
+    
+    .block {
+        display: flex;
+        width: 88%;
+        margin: 30px 6%;
+        padding: 10px 0;
+    }
+    
+    h1 {
+        font-size: 52px;
+        margin-top: 15px;
+    }
+    
+    .info {
+        margin-left: 20px;
+    }
+    
+    a {
+        color: #FBFBFF;
+    }
+    
+    a:visited {
+        color: #FBFBFF;
+    }
+    
+    .txt {
+        padding-top: 10px;
+    }
+    
+    .link {
+        background-position: center;
+        height: 55px;
+        margin-left: 9.5vw;
+        margin-top: 10px;
+    }
+    
+    .menu {
+        text-align: end;
+        position: absolute;
+        right: 10px;
+        top: 130px;
+        background-color: #525259;
+        opacity: 90%;
+    }
+    
+    .menu-section {
+        font-size: 30px;
+        margin: 15px;
+        padding: 5px;
+    }
+    
+    input+.button+div {
+        display: none;
+    }
+    
+    input:checked+.button+div {
+        display: block;
+    }
+    
+    #x {
+        text-decoration: none;
+    }

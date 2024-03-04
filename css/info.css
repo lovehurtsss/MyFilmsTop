@@ -1,0 +1,110 @@
+    body {
+        background-color: #293241;
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FBFBFF;
+        text-align: justify;
+        font-size: 14px;
+    }
+    
+    .logo {
+        height: 75px;
+        margin-left: 20px;
+        margin-top: 32.5px;
+    }
+    
+    nav {
+        background-color: black;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .button {
+        background-size: contain;
+        background-image: url(../images/menu.png);
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 40px;
+        top: 55px;
+        background-repeat: no-repeat;
+    }
+    
+    input[type="checkbox"] {
+        display: none;
+    }
+    
+    a {
+        color: #FBFBFF;
+    }
+    
+    a:visited {
+        color: #FBFBFF;
+    }
+    
+    .header {
+        background-color: #006E90;
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    h1 {
+        color: #DBD4D3;
+        text-align: center;
+        padding-top: 180px;
+        font-size: 76px;
+    }
+    
+    .main {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .txt {
+        margin: auto;
+        margin-top: 30px;
+        width: 96%;
+    }
+    
+    .video {
+        width: 95%;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 55%;
+        padding-top: 40px;
+    }
+    
+    .video iframe {
+        height: 90%;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .menu {
+        text-align: end;
+        position: absolute;
+        right: 10px;
+        top: 130px;
+        background-color: #525259;
+        opacity: 90%;
+    }
+    
+    .menu-section {
+        font-size: 30px;
+        margin: 15px;
+        padding: 5px;
+    }
+    
+    input+.button+div {
+        display: none;
+    }
+    
+    input:checked+.button+div {
+        display: block;
+    }
+    
+    #x {
+        text-decoration: none;
+    }
